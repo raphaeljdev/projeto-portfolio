@@ -1,0 +1,19 @@
+.experiences {
+  margin-top: 80px;
+}
+
+.experiences h2 {
+  font-size: 48px;
+  color: #141414;
+}
+
+.experiences p {
+  color: #525252;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.experiences span {
+  color: #141414;
+  font-weight: bold;
+}
