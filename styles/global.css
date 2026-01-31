@@ -30,11 +30,19 @@ li {
   list-style-type: none;
 }
 
+header {
+  padding: 0 20px;
+}
+
 main {
   padding: 0 20px;
 }
 
 @media screen and (min-width: 1440px) {
+  header {
+    padding: 50px 100px;
+  }
+
   main {
     padding: 0 100px;
   }

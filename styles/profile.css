@@ -68,3 +68,10 @@
     z-index: -1;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .profile {
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+  }
+}
