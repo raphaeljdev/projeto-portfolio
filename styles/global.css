@@ -1,7 +1,25 @@
+@font-face {
+  font-family: "Fira Sans Regular";
+  src: url(../fonts/FiraSans-Regular.ttf);
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Sans Bold";
+  src: url(../fonts/FiraSans-Bold.ttf);
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "FiraSans-Regular", sans-serif;
 }
 
 a {

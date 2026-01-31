@@ -22,3 +22,32 @@ header nav ul li a {
   font-size: 18px;
   border-radius: 5px;
 }
+
+@media screen and (min-width: 1024px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0;
+    padding: 50px 20px;
+  }
+
+  header nav {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  header nav ul {
+    margin-top: 0px;
+    gap: 50px;
+  }
+
+  header nav ul li a {
+    background-color: transparent;
+    padding: 0;
+  }
+
+  header nav ul li a:hover {
+    font-weight: bold;
+  }
+}
