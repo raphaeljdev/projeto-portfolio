@@ -2,6 +2,10 @@
   margin-top: 70px;
 }
 
+.profile img {
+  display: none;
+}
+
 .profile h1 {
   position: relative;
   font-size: 32px;
@@ -22,7 +26,45 @@
 }
 
 .profile p {
-  margin-top: 40px;
+  margin-top: 30px;
   font-size: 24px;
   color: #525252;
+}
+
+@media screen and (min-width: 425px) {
+  .profile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .profile-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .profile img {
+    display: inline;
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .profile h1 {
+    font-size: 72px;
+  }
+
+  .profile h1::before {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 100px;
+    background: url("../img/detalhe.svg") no-repeat center;
+    position: absolute;
+    top: -15px;
+    left: -40px;
+    z-index: -1;
+  }
 }

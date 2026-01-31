@@ -33,3 +33,9 @@ li {
 main {
   padding: 0 20px;
 }
+
+@media screen and (min-width: 1440px) {
+  main {
+    padding: 0 100px;
+  }
+}
