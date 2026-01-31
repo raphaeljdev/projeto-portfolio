@@ -1,12 +1,12 @@
 @font-face {
-  font-family: "Fira Sans Regular";
+  font-family: "Fira Sans Regular", Arial, sans-serif;
   src: url(../fonts/FiraSans-Regular.ttf);
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Fira Sans Bold";
+  font-family: "Fira Sans Bold", Arial, sans-serif;
   src: url(../fonts/FiraSans-Bold.ttf);
   font-style: normal;
   font-display: swap;
@@ -19,7 +19,7 @@
 }
 
 body {
-  font-family: "FiraSans-Regular", sans-serif;
+  font-family: "FiraSans-Regular";
 }
 
 a {
@@ -28,4 +28,8 @@ a {
 
 li {
   list-style-type: none;
+}
+
+main {
+  padding: 0 20px;
 }

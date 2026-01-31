@@ -1,0 +1,28 @@
+.profile {
+  margin-top: 70px;
+}
+
+.profile h1 {
+  position: relative;
+  font-size: 32px;
+  color: #141414;
+  font-family: "Fira Sans Bold";
+}
+
+.profile h1::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 10px;
+  background: url("../img/detalhe.svg") no-repeat center;
+  position: absolute;
+  top: -15px;
+  left: 0px;
+  z-index: -1;
+}
+
+.profile p {
+  margin-top: 40px;
+  font-size: 24px;
+  color: #525252;
+}
