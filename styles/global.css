@@ -1,12 +1,12 @@
 @font-face {
-  font-family: "Fira Sans Regular", Arial, sans-serif;
+  font-family: "Fira Sans Regular";
   src: url(../fonts/FiraSans-Regular.ttf);
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Fira Sans Bold", Arial, sans-serif;
+  font-family: "Fira Sans Bold";
   src: url(../fonts/FiraSans-Bold.ttf);
   font-style: normal;
   font-display: swap;
@@ -46,7 +46,7 @@ main {
 
 @media screen and (min-width: 1440px) {
   header {
-    padding: 50px 100px;
+    padding: 0 100px;
   }
 
   main {

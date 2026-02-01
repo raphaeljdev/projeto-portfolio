@@ -1,75 +1,89 @@
-.experiences {
-  margin-top: 80px;
+.experiences__container {
+  margin-top: 70px;
 }
 
-.experiences h2 {
-  font-size: 48px;
-  color: #141414;
-  margin-bottom: 40px;
+.experiences__container h2 {
+  font-family: 'Fira Sans Bold';
+  font-size: 32px;
+  color: #E0E0E0;
+  margin-bottom: 30px;
 }
 
 .experiences p {
-  color: #525252;
-  font-size: 20px;
+  font-size: 24px;
 }
 
-.experiences span {
-  color: #141414;
-  font-weight: bold;
-}
-
-.experiences .item {
-  padding: 20px;
-  background-color: #f5f5f5;
+.item {
+  margin-top: 20px;
   display: flex;
-  border-radius: 5px;
   flex-direction: column;
   flex-wrap: wrap;
-  margin-top: 40px;
-  gap: 10px;
+  gap: 20px;
+  background-color: #F5F5F5;
+  border-radius: 5px;
+  padding: 20px;
 }
 
-.experiences .item h3,
-h4 {
+.item h3, h4 {
+  font-family: 'Fira Sans Bold';
   font-size: 18px;
 }
 
-.experiences .item p {
+.item p {
   font-size: 14px;
 }
 
-.experiences .item ul {
+.item ul {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 5px;
 }
 
-.experiences .item ul li {
-  background-color: #ffffff;
+.item ul li {
   padding: 5px;
+  background-color: #fff;
   border-radius: 5px;
 }
 
 @media screen and (min-width: 1024px) {
-  .experiences {
+  .experiences__container {
     display: grid;
-    margin: 0 auto;
     grid-template-columns: 1fr 2fr;
-    max-width: 1200px;
+    gap: 20px;
   }
 
-  .experiences h2 {
+  .experiences__container h2 {
     font-size: 144px;
     word-break: break-all;
-    color: #e0e0e0;
     text-transform: uppercase;
   }
 
   .experiences .item {
     display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 10px 20px;
-    position: relative;
+    grid-template-columns: auto 2fr;
+  }
+
+  .experiences .item h4 {
+    text-align: right;
+  }
+
+  .experiences .item p {
+    max-width: 325px;
+  }
+
+  .experiences .item ul {
+    justify-content: right;
+    align-items:flex-start;
+    flex-wrap: wrap;
+  }
+
+  .experiences .item ul li {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .experiences__container h2 {
+    max-width: 350px;
   }
 }
