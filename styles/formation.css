@@ -1,20 +1,23 @@
-.experiences__container {
+.formation__container {
   margin-top: 70px;
+  background-color: #141414;
 }
 
-.experiences__container h2 {
+.formation__container h2 {
   font-family: 'Fira Sans Bold';
   font-size: 32px;
   margin-bottom: 30px;
 }
 
-.experiences p {
+.formation p {
   font-size: 24px;
+  color: #A3A3A3;
 }
 
-.experiences span {
-  font-weight: bold;
+.formation span {
+  color: white;
   text-transform: uppercase;
+
 }
 
 .item {
@@ -50,46 +53,45 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .experiences__container {
+  .formation__container {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 20px;
   }
 
-  .experiences__container h2 {
+  .formation__container h2 {
     font-size: 144px;
     word-break: break-all;
     text-transform: uppercase;
-  color: #E0E0E0;
-
+    color: #000;
   }
 
-  .experiences .item {
+  .formation .item {
     display: grid;
     grid-template-columns: auto 2fr;
   }
 
-  .experiences .item h4 {
+  .formation .item h4 {
     text-align: right;
   }
 
-  .experiences .item p {
+  .formation .item p {
     max-width: 325px;
   }
 
-  .experiences .item ul {
+  .formation .item ul {
     justify-content: right;
     align-items:flex-start;
     flex-wrap: wrap;
   }
 
-  .experiences .item ul li {
+  .formation .item ul li {
     display: block;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .experiences__container h2 {
+  .formation__container h2 {
     max-width: 350px;
   }
 }
